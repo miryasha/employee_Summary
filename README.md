@@ -24,35 +24,6 @@ How do you deliver this? Here are some guidelines:
 ![Employee Summary 1](./Assets/10-OOP-homework-demo-1.png)
 ![Employee Summary 2](./Assets/10-OOP-homework-demo-2.png)
 
-In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
-
-The dependencies are, [jest](https://jestjs.io/) for running the provided tests, and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user.
-
-There are also unit tests to help you build the classes necessary.
-
-It is recommended that you follow this workflow:
-
-1. Run tests
-2. Create or update classes to pass a single test case
-3. Repeat
-
-🎗 Remember, you can run the tests at any time with `npm run test`
-
-It is recommended that you start with a directory structure that looks like this:
-
-```
-lib/           // classes and helper code
-output/        // rendered output
-templates/     // HTML template(s)
-test/          // jest tests
-  Employee.test.js
-  Engineer.test.js
-  Intern.test.js
-  Manager.test.js
-app.js         // Runs the application
-```
-
-
 
 ### Classes
 The project must have the these classes: `Employee`, `Manager`, `Engineer`,
